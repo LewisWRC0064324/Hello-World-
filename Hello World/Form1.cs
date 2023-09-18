@@ -19,7 +19,7 @@ namespace Hello_World
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello " + txtBxName.Text  + "!!");
+            MessageBox.Show("Welcome To Lewis' Program " + txtBxName1.Text + " " + TxtBxName2.Text + "!!");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -30,6 +30,36 @@ namespace Hello_World
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Goodbye " + txtBxName1.Text +" " + TxtBxName2.Text + "!!");
+        }
+
+        private void TxtBxName2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBxName1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("I hate the colour " + TxtBx3.Text + "!!" );
         }
     }
 }
